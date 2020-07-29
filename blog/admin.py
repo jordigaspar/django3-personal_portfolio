@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import Blog # ----- Import de db/model Project to the admin page
 
-# Register your models here.
+admin.site.register(Blog)
